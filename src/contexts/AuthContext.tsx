@@ -1,6 +1,6 @@
 import { createContext, useContext, useEffect, useState, ReactNode } from 'react';
-import { User, Session } from '@supabase/BoltDatabase-js';
-import { BoltDatabase } from '../lib/BoltDatabase';
+import { User, Session } from '@supabase/Bolt Database-js';
+import { Bolt Database } from '../lib/Bolt Database';
 
 interface AuthContextType {
   user: User | null;
